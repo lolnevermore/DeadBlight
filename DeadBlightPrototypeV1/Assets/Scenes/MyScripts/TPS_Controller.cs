@@ -89,8 +89,6 @@ public class TPS_Controller : MonoBehaviour
         Vector3 aimDirection = (worldAimTarget - transform.position).normalized;
 
         transform.forward = Vector3.Lerp(transform.forward, aimDirection, Time.deltaTime * 1000f);
-
-
     }
 
     // Update is called once per frame
